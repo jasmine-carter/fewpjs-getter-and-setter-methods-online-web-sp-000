@@ -23,6 +23,6 @@ class Circle {
     this.radius = Math.sqrt(area/Math.PI)
   }
   set circumference(circumference) {
-    this.radius = circumferece/(Math.PI * 2)
+    this.radius = circumference/(Math.PI * 2)
   }
 }
