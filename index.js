@@ -15,7 +15,8 @@ class Circle {
     this.area = Math.PI * (this.radius * this.radius)
   }
 
-  set diameter(radius)
-  this.radius = radius
-  this.diameter = this.radius * 2
+  set diameter(radius) {
+    this.radius = radius
+    this.diameter = this.radius * 2
+  }
 }
