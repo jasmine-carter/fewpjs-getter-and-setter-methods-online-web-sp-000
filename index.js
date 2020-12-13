@@ -17,6 +17,6 @@ class Circle {
 
   set diameter(newRadius) {
     this.radius = newRadius
-    this.diameter = this.radius * 2
+    this.diameter = newRadius * 2
   }
 }
